@@ -1,5 +1,7 @@
-#ifndef LAB2_BINARYTREE_H
-#define LAB2_BINARYTREE_H
+
+
+#ifndef LABS_TREE_BINARYTREETESTER_H
+#define LABS_TREE_BINARYTREETESTER_H
 
 /*
  * Необходимые методы класса BinaryTree:
@@ -168,4 +170,6 @@ private:
 };
 
 
-#endif //LAB2_BINARYTREE_H
+
+
+#endif //LABS_TREE_BINARYTREETESTER_H

@@ -3,4 +3,4 @@ project(Labs_Tree)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Labs_Tree main.cpp Node.cpp Node.h BinaryTree.cpp BinaryTree.h Tmp.cpp Tmp.h)
+add_executable(Labs_Tree main.cpp Node.cpp Node.h BinaryTree.cpp BinaryTree.h BinaryTreeTester.cpp BinaryTreeTester.h)

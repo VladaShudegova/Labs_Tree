@@ -137,12 +137,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Tmp.cpp",
+			"path" : "BinaryTreeTester.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Tmp.h",
+			"path" : "BinaryTreeTester.h",
 			"sourceGroupIndex" : 1
 		}
 	],
