@@ -1,3 +1,7 @@
 # ninja log v5
 0	383	1680451685807702935	CMakeFiles/Labs_Tree.dir/main.cpp.o	149ab527a0ef2015
 385	437	1680451685863299377	Labs_Tree	61a1cdc618abc825
+7	585	1680586880204865275	CMakeFiles/Labs_Tree.dir/Node.cpp.o	75fecacb8059d812
+5	1400	1680586881019032991	CMakeFiles/Labs_Tree.dir/main.cpp.o	149ab527a0ef2015
+7	1552	1680586881171908974	CMakeFiles/Labs_Tree.dir/Tmp.cpp.o	4f0554ab01be93b1
+5	58	1680587081354868145	CMakeFiles/Labs_Tree.dir/BinaryTree.cpp.o	8684d72236033725

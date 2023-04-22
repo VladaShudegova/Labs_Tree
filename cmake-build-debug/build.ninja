@@ -64,6 +64,12 @@ build CMakeFiles/Labs_Tree.dir/BinaryTree.cpp.o: CXX_COMPILER__Labs_Tree_Debug /
   OBJECT_DIR = CMakeFiles/Labs_Tree.dir
   OBJECT_FILE_DIR = CMakeFiles/Labs_Tree.dir
 
+build CMakeFiles/Labs_Tree.dir/Tmp.cpp.o: CXX_COMPILER__Labs_Tree_Debug /Users/vladashudegova/dev/repos/Labs_Tree/Tmp.cpp || cmake_object_order_depends_target_Labs_Tree
+  DEP_FILE = CMakeFiles/Labs_Tree.dir/Tmp.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Labs_Tree.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labs_Tree.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Labs_Tree
@@ -72,7 +78,7 @@ build CMakeFiles/Labs_Tree.dir/BinaryTree.cpp.o: CXX_COMPILER__Labs_Tree_Debug /
 #############################################
 # Link the executable Labs_Tree
 
-build Labs_Tree: CXX_EXECUTABLE_LINKER__Labs_Tree_Debug CMakeFiles/Labs_Tree.dir/main.cpp.o CMakeFiles/Labs_Tree.dir/Node.cpp.o CMakeFiles/Labs_Tree.dir/BinaryTree.cpp.o
+build Labs_Tree: CXX_EXECUTABLE_LINKER__Labs_Tree_Debug CMakeFiles/Labs_Tree.dir/main.cpp.o CMakeFiles/Labs_Tree.dir/Node.cpp.o CMakeFiles/Labs_Tree.dir/BinaryTree.cpp.o CMakeFiles/Labs_Tree.dir/Tmp.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Labs_Tree.dir
   POST_BUILD = :

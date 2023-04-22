@@ -26,9 +26,8 @@ public:
     void setKey(const int key);
     void setLeftChild(Node* leftChild);
     void setRightChild(Node* rightChild);
-    int getKey() const;
-    Node* getLeftChild();
-    Node* getRightChild();
+    Node* leftChild();
+    Node* rightChild();
 
 
 

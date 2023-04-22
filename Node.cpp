@@ -30,14 +30,10 @@ void Node::setRightChild(Node *rightChild) {
     m_rightChild = rightChild;
 }
 
-int Node::getKey() const{
-    return m_key;
-}
-
-Node* Node::getLeftChild() {
+Node* Node:: leftChild() {
     return m_leftChild;
 }
 
-Node* Node::getRightChild() {
+Node* Node::rightChild() {
     return m_rightChild;
 }
