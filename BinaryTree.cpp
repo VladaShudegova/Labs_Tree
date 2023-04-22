@@ -94,7 +94,7 @@ int BinaryTree::getHeight(Node* node) const {
     return max(getHeight(node->getLeft()), getHeight(node->getRight())) + 1;
 }
 
-int BinaryTree::getCount() const {
+int BinaryTree::size() const {
     return getCount(m_root);
 }
 
@@ -127,7 +127,7 @@ int BinaryTree::getMinKey(Node* node) {
     return max(node->getKey(), max(getMinKey(node->getLeft()), getMinKey(node->getRight())));
 }
 
-bool BinaryTree::remove(int key) {
+bool BinaryTree::removeNode(int key) {
     return remove(m_root, key, nullptr);
 }
 

@@ -67,18 +67,13 @@ int main()
 //    delete ptr;
 //
 //    //Пример использования класса-тестировщика
-//    BinaryTreeTester tester;
-//    for (int size = 10; size < 200; size += 10) {
-//        tester.test(size);
-//    }
-    //return 0;
+    BinaryTreeTester tester;
+    for (int size = 10; size < 200; size += 10) {
+        tester.test(size);
+    }
+
     BinaryTree b(ten_child_tree());
-    BinaryTree c(3);
-    b.addNode(56);
-    // b.printHorizontal(b.getRoot(), 4, 4);
-    //b.printByLevels(b.getRoot());
-    b.printLevel(3);
-    b.clearTree();
+
 
     return 0;
 }

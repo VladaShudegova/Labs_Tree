@@ -62,7 +62,7 @@ public:
 
     int getHeight(Node* node) const;
 
-    int getCount() const;
+    int size() const;
 
     int getCount(const Node* node) const;
 
@@ -74,7 +74,7 @@ public:
 
     int getMinKey(Node* node);
 
-    bool remove(int key);
+    bool removeNode(int key);
 
     bool remove(Node* node, int key, Node* parent);
 
